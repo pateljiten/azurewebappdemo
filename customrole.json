@@ -1,0 +1,16 @@
+{
+  "Name": "stagingrole",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "Allows for read access to Azure Virtual Machines and storage accounts",
+  "Actions": [
+    "Microsoft.Compute/*/read",
+    "Microsoft.Storage/*/read"
+  ],
+  "NotActions": [],
+  "AssignableScopes": [
+    "/subscriptions/eca3f5c8-2b5d-4632-ad77-0f0e6757c833"
+  ]
+}
+
+

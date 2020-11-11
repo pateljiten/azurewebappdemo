@@ -1,0 +1,8 @@
+1. group access review
+2. Tag policy applied at RG level is it inherited? - no
+3. Can owner add user to dynamic device group? - no
+4. Can cloud device admin add AD joined user to assigned group - no
+5. authentication method to use azcopy for blob and file storage - blob SAS and Azure AD. file - SAS 
+6. Synch group , cloud tiering - 
+7. If no nsg is attached does VM accept all traffic? - Yes
+8. If budget is exhausted , VM is turned off ? - if spending limit is over , it will be turned off
